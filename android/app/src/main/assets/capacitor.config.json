@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "FlaFla",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,25 @@
+.bar_recherche{
+    height: auto;
+    margin: 0;
+    background-color: rgba(127, 255, 212, 0.527);
+    width: 100%;
+    z-index: 10000;
+}
+.contenue{
+    display: grid;
+    grid-template-columns: 45.5% 45.5%;
+    grid-column-gap: 4%;  
+}
+.content{
+    font-size: 10px;
+    width: 100%;
+    margin: 5%;
+    text-align: center;
+    font-family: initial;
+}
+
+ion-searchbar{
+    width: 100%;
+    margin: 0px;
+    padding: 2px;
+}
