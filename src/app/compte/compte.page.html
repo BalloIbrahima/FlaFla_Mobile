@@ -1,9 +1,47 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>compte</ion-title>
-  </ion-toolbar>
-</ion-header>
+<!--<ion-header>
+   <ion-toolbar>
+    <ion-title>
+      Ionic 5 Form
+    </ion-title>
+  </ion-toolbar> 
+</ion-header>-->
 
-<ion-content>
+<ion-content >
 
+  <div class="content" >
+
+    <ion-grid  *ngIf="IsConnected==false" class="auth-form" >
+      <ion-row>
+        <ng-lottie [options]="option"></ng-lottie>
+      </ion-row>
+
+      <ion-row>
+        <ion-col align-self-center>
+          <ion-button [routerLink]="['/registration']" expand="block" color="primary">Créer un compte</ion-button>
+  
+          <span class="divider line one-linen d_cent" >ou</span>
+  
+          <span class="already d_cent"  >Vous avez déja un compte?</span>
+  
+          <ion-button [routerLink]="['/login']" expand="block" color="danger">Connectez-vous</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <div *ngIf="IsConnected" class="not_connected">
+
+      <div class="entete_compte" >
+
+        <div class="profil_img"></div>
+      </div>
+      
+      <div class="content_compte">
+        <ion-label style="background-color: coral;">Ballo Ibrahima</ion-label>
+        <ion-label style="background-color: rgb(32, 14, 100);">51075979</ion-label>
+        <ion-label style="background-color: rgb(24, 90, 11); cursor: pointer;border-radius: 10px;">Payement</ion-label>
+
+      </div>  
+    </div>
+  </div>
+ 
 </ion-content>
+

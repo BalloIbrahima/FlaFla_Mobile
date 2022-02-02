@@ -6,13 +6,19 @@ import { FormsModule } from '@angular/forms';
 import { TabsPageRoutingModule } from './tabs-routing.module';
 
 import { TabsPage } from './tabs.page';
+import { LottieModule } from 'ngx-lottie';
+import { SwiperModule } from 'swiper/angular';
+
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
-    TabsPageRoutingModule
+    TabsPageRoutingModule,
+    SwiperModule,
+
+
   ],
   declarations: [TabsPage]
 })

@@ -1,0 +1,57 @@
+.content{
+    margin:auto;
+    height: 100%;
+}
+
+.auth-form{
+    height: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.d_cent{
+    color: #951199;
+    display: flex; 
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+//if is connnected
+.not_connected{
+    display: contents;
+}
+
+.entete_compte{
+
+    height: 60%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #6f20b0;
+}
+.profil_img{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}
+
+
+.content_compte{
+}
+.content_compte ion-label{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0% 0% 0%;
+    font-size: x-large;
+    color: aliceblue
+
+}

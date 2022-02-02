@@ -8,20 +8,16 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'service',
-        loadChildren: () => import('../service/service.module').then( m => m.ServicePageModule)
-      },
-      {
         path: 'acceuil',
         loadChildren: () => import('../acceuil/acceuil.module').then( m => m.AcceuilPageModule)
       },
       {
-        path: 'service',
-        loadChildren: () => import('../service/service.module').then( m => m.ServicePageModule)
-      },
-      {
         path: 'compte',
         loadChildren: () => import('../compte/compte.module').then( m => m.ComptePageModule)
+      },
+      {
+        path: 'service',
+        loadChildren: () => import('../service/service.module').then( m => m.ServicePageModule)
       },
       {
         path: '',
